@@ -12,7 +12,8 @@ function App() {
                 <Route path="/results" element={<Results />} />
                 <Route path="/" element={<Quiz />} />
             </Routes>
-        </Router>
+            </Router>
+        
     );
 }
 
