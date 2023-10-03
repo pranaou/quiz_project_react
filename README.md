@@ -52,8 +52,11 @@ react-spring: For animations.
 **User Login:** Mock users are present for testing the application.
 
 John/pass1
+
 Jack/pass2
+
 Joe/pass3
+
 
 **Quiz:** After logging in, users are presented with a series of questions to answer.
 
