@@ -6,10 +6,10 @@ import Results from './components/Results';
 
 function App() {
     return (
-        <Router>
+        <Router basename="/quiz_project_react">
             <Routes>
                 <Route path="/user-stats" element={<UserStats />} />
-                <Route path="/results" element={<Results />} /> {}
+                <Route path="/results" element={<Results />} />
                 <Route path="/" element={<Quiz />} />
             </Routes>
         </Router>

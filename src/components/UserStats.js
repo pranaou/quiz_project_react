@@ -52,7 +52,7 @@ function UserStats() {
     });
 
     useEffect(() => {
-        axios.get('http://127.0.0.1:8000/api/userstats/')
+        axios.get('https://quizprojectapi.herokuapp.com/api/userstats/')
             .then(response => {
                 setStats(response.data);
             })
