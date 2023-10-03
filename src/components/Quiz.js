@@ -152,7 +152,7 @@ function Quiz() {
 const navigate = useNavigate();
 
     useEffect(() => {
-        axios.get('http://127.0.0.1:8000/api/questions/')
+        axios.get('https://quizprojectapi.herokuapp.com/api/questions/')
             .then(response => {
                 setQuestions(response.data);
             })
@@ -194,7 +194,7 @@ const navigate = useNavigate();
             answers: selectedAnswers
         };
 
-        axios.post('http://127.0.0.1:8000/api/quizresults/', payload)
+        axios.post('hhttps://quizprojectapi.herokuapp.com/api/quizresults/', payload)
         .then(response => {
             const { score, total_question } = response.data;
 
